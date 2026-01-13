@@ -1,0 +1,22 @@
+#+TITLE: Lala
+
+This is a simple calculator language.
+
+How to build:
+
+#+begin_src bash
+  dune build
+#+end_src
+
+How to install:
+
+#+begin_src bash
+  dune install
+#+end_src
+
+
+How to use:
+
+#+begin_src bash
+  lala "(+ 3 (* 5 (+ 1 2 3 (- 80 20))))"
+#+end_src
