@@ -8,11 +8,15 @@ How to build:
   dune build
 #+end_src
 
+#+RESULTS:
+
 How to install:
 
 #+begin_src bash
   dune install
 #+end_src
+
+#+RESULTS:
 
 
 How to use:
@@ -20,3 +24,6 @@ How to use:
 #+begin_src bash
   lala "(+ 3 (* 5 (+ 1 2 3 (- 80 20))))"
 #+end_src
+
+#+RESULTS:
+: 333.
