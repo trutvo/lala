@@ -1,6 +1,6 @@
 #+TITLE: Lala
 
-This is a simple calculator language.
+This is a simple lisp style calculator language.
 
 How to build:
 
@@ -21,9 +21,9 @@ How to install:
 
 How to use:
 
-#+begin_src bash :exports both :results pp 
+#+begin_src bash :exports both :results raw 
   echo "(+ 3 (* 5 (+ 1 2 3 (- 80 20))))" | lala
 #+end_src
 
 #+RESULTS:
-: 333
+: 333.
