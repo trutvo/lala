@@ -21,7 +21,7 @@ How to install:
 
 How to use:
 
-#+begin_src bash
+#+begin_src bash :exports both :results pp 
   echo "(+ 3 (* 5 (+ 1 2 3 (- 80 20))))" | lala
 #+end_src
 
