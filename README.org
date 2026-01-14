@@ -22,8 +22,8 @@ How to install:
 How to use:
 
 #+begin_src bash
-  lala "(+ 3 (* 5 (+ 1 2 3 (- 80 20))))"
+  echo "(+ 3 (* 5 (+ 1 2 3 (- 80 20))))" | lala
 #+end_src
 
 #+RESULTS:
-: 333.
+: 333
